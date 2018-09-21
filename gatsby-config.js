@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: '321 Fantasy Football Reports',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
