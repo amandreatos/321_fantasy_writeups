@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 2017 Week 9 Highlights
-date: 2017-11-24T16:07:08.539Z
+date: 2017-11-17T16:07:08.539Z
 description: 2017 Week 9 321 Fantasy Football Highlights
 tags:
   - 2017 Season
