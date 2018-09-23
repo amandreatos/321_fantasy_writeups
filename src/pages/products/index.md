@@ -1,14 +1,11 @@
 ---
-templateKey: 'product-page'
-path: /products
-title: Our Coffee
-image: /img/jumbotron.jpg
+templateKey: product-page
+title: Our Balls
+image: /img/ttowm-ph-8.jpg
 heading: What we offer
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  321 Fantasy Football League is literally the best fantasy football league
+  ever.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -45,7 +42,7 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Great balls with no compromises
   description: >
     We hold our coffee to the highest standards from the shrub to the cup.
     That’s why we’re meticulous and transparent about each step of the coffee’s
@@ -99,3 +96,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
