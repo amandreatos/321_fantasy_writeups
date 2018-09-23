@@ -13,17 +13,17 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Fantasy Write-ups</h1>
+              <h1 className="has-text-weight-bold is-size-2">Latest Fantasy Highlights</h1>
             </div>
             {posts
               .map(({ node: post }) => (
                 <div
                   className="content"
-                  style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
+                  style={{ border: '1px solid #eaecee', padding: '2em 4em', borderRadius: '4px' }}
                   key={post.id}
                 >
                   <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
+                    <Link className="has-text-primary has-text-weight-semibold" to={post.fields.slug}>
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
@@ -33,7 +33,7 @@ export default class IndexPage extends React.Component {
                     {post.excerpt}
                     <br />
                     <br />
-                    <Link className="button is-small" to={post.fields.slug}>
+                    <Link className="button is-primary is-outlined is-small" style={{borderRadius: '3px'}} to={post.fields.slug}>
                       Keep Reading →
                     </Link>
                   </p>

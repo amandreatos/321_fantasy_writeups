@@ -1,17 +1,23 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import espn from '../img/espn-logo.png'
+import logo from '../img/321-logo-circle.png'
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          {/* <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure> */}
-          <span style={{fontWeight: 600}} className="ttoHeadline">321 Fantasy Football</span>
+          <figure className="image">
+            <img
+              style={{ height: "100%", width: "30px", margin: "0 0.5rem 0 0" }}
+              src={logo}
+              alt="Kaldi"
+            />
+          </figure>
+          <span style={{ fontWeight: 700 }} className="ttoHeadline">
+            Fantasy Football
+          </span>
         </Link>
       </div>
       <div className="navbar-start">
@@ -22,20 +28,20 @@ const Navbar = () => (
           Products
         </Link>
       </div>
-      {/* <div className="navbar-end">
+      <div className="navbar-end">
         <a
           className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+          href="http://games.espn.com/ffl/clubhouse?leagueId=577067&teamId=4&seasonId=2018"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="icon">
-            <img src={github} alt="Github" />
+          <span className="icon espn-logo">
+            <img src={espn} alt="ESPN" />
           </span>
         </a>
-      </div> */}
+      </div>
     </div>
   </nav>
-)
+);
 
 export default Navbar
