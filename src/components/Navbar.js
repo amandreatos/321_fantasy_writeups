@@ -31,7 +31,7 @@ const Navbar = () => (
       <div className="navbar-end">
         <a
           className="navbar-item"
-          href="http://games.espn.com/ffl/clubhouse?leagueId=577067&teamId=4&seasonId=2018"
+          href="http://games.espn.com/ffl/standings?leagueId=577067&seasonId=2018"
           target="_blank"
           rel="noopener noreferrer"
         >
