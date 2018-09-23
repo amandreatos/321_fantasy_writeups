@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 2017 Week 7 Highlights
-date: 2018-09-23T23:04:59.508Z
+date: 2017-11-03T23:04:00.000Z
 description: 2017 Week 7 Highlights
 tags:
   - Fantasy Football 2017
