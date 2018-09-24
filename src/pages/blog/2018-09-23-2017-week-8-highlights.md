@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 2017 Week 8 Highlights
-date: 2018-09-23T15:28:55.305Z
+date: 2017-11-10T16:28:55.305Z
 description: Week 8 Highlights for the 2017 season
 tags:
   - 2017 Season
